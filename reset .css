@@ -1,0 +1,51 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Remove default padding */
+  ul[class], ol[class] {
+    padding: 0;
+  }
+  
+  /* Remove default margin */
+  body, h1, h2, h3, h4, h5, h6, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+  }
+  
+  /* Set default font size and line height */
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Remove list styles on ul, ol elements */
+  ul[class], ol[class] {
+    list-style: none;
+  }
+  
+  /* Remove anchor text decoration */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Remove borders on form elements */
+  button, input, select, textarea {
+    border: none;
+    outline: none;
+  }
+  
+  /* Remove default styles on HTML5 elements */
+  article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
+    display: block;
+  }
+  
+  /* Remove IE10-11 clear:both */
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
