@@ -10,7 +10,7 @@ Site responsável por realizar o sorteio diário de quem devera apresentar a day
 
 Para rodar o sorteio é extremamente simples, basta clicar no botão “Sortear” e aguardar a contagem regressiva para que um dos membros da squad seja sorteado.
 
-![Untitled](Sorteio%20de%20Membros%20Squad%20Regulato%CC%81rio%2050e2558d8df14004914198cd32c38962/Untitled.png)
+![Print da tela](https://user-images.githubusercontent.com/54692628/232927111-f3b38779-a1f9-4fab-bea0-680a158af822.png)
 
 ### Alteração nos membros
 
