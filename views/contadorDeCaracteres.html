@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contador de caracteres por linha</title>
+
+    <link rel="stylesheet" href="css\reset.css">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css/contadorDeCaracteres_style.css">
+</head>
+<body>
+    <nav class="nav">
+        <a class="nav__title" href="../index.html">Ferramentas Squad</a>
+        <ul class="nav__menu">
+            <li class="nav__item">
+                <a class="nav__link" href="./sorteioSquad.html">Sorteio de Membros</a>
+            </li>
+
+            <li class="nav__item">
+                <a class="nav__link" href="#">Contador de Caracteres</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <textarea id="paragrafo" rows="5" cols="50"></textarea>
+        <br>
+        <button onclick="contarCaracteres()">Contar caracteres</button>
+        <br>
+        <pre id="resultado"></pre>
+    </main>
+
+    <script src="./js/contadorDeCaracteres_script.js"></script>
+</body>
+</html>
