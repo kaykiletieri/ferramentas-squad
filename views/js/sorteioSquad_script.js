@@ -8,7 +8,7 @@ function sortearNome() {
       contador--;
       if (contador < 0) {
           clearInterval(intervalo);
-          fetch('../../equipe.json')
+          fetch('../equipe.json')
               .then(function(response) {
                   return response.json();
               })
