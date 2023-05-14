@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ferramentas Squad</title>
+    <title>Sorteio Squad</title>
 
-    <link rel="stylesheet" href="./views/css/reset.css">
+    <link rel="stylesheet" href="/views/css/reset.css">
     <link rel="stylesheet" href="/views/css/style.css">
-    <link rel="stylesheet" href="/views/css/index_style.css">
+    <link rel="stylesheet" href="/views/css/sorteioSquad_style.css">
 </head>
 <body>
     <nav class="nav">
-        <a class="nav__title" href="/index.html">Ferramentas Squad</a>
+        <a class="nav__title" href="../index.html">Ferramentas Squad</a>
         <ul class="nav__menu">
             <li class="nav__item">
                 <a class="nav__link" href="./views/sorteioSquad.html">Sorteio de Membros</a>
@@ -23,5 +23,14 @@
             </li>
         </ul>
     </nav>
+
+    <main class="main">
+        <h1>Sorteio Squad Regulatório e PLD</h1>
+        <p id="resultado"></p>
+
+        <button class="main__btn" onclick="sortearNome()">Sortear</button>
+    </main>
+
+    <script src="./js/sorteioSquad_script.js"></script>
 </body>
 </html>
