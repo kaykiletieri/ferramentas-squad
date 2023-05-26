@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cronômetro Dayli</title>
+  
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cronometroDayli_style.css">
+</head>
+<body>
+    <nav class="nav">
+        <a class="nav__title" href="../index.html">Ferramentas Squad</a>
+        <ul class="nav__menu">
+            <li class="nav__item">
+                <a class="nav__link" href="sorteioSquad.html">Sorteio de Membros</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#">Cronômetro para Dayli</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="contadorDeCaracteres.html">Contador de Caracteres</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="timer">
+            <span class="timer__minutes">00</span>:<span class="timer__seconds">00</span>
+        </div>
+        <div class="containerBtn">
+            <button class="button" id="startButton">Iniciar</button>
+            <button class="button" id="pauseButton" disabled>Pausar</button>
+            <button class="button" id="stopButton" disabled>Parar</button>
+        </div>
+        
+    </main>
+  <script src="./js/cronometroDayli_script.js"></script>
+</body>
+</html>
